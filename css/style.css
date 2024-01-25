@@ -1,12 +1,12 @@
 body {
-  background-color: #708090;
+  background-color: #5c5c5c;
 }
 
-h1 {
+header > h1 {
   font-size: 70px;
   text-align: center;
   background-color: black;
-  color: #708090;
+  color: grey;
   display: block;
 }
 
@@ -16,13 +16,8 @@ h2 {
   text-decoration: underline;
 }
 
-h3 {
-  margin-top: 50px;
-  text-align: center;
-}
-
 .item1 {
-  background-color: #dcdcdc;
+  background-color: #B4B4B4;
   grid-column: 1/2fr;
   grid-row: 1/4;
   border-radius: 5px;
