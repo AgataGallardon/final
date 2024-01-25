@@ -1,157 +1,145 @@
-/* en el index */
 body {
-  background-color: grey;
-}
-
-
-h1 {
-
-
-  font-size: 70px;
-  text-align: center;
-  background-color: black;
-  color: grey;
+    background-color: grey;
+  }
   
-  display: block;
-
-}
-
-
-
-h2 {
-  margin-top: 20px; 
-  text-align: center;
-  text-decoration: underline;
-}
-
-
-h3 {
-  margin-top: 50px; 
-text-align: center; 
-}
-
-/*imagenes*/
-.contenedordeimagenes
-{
-  display: flex;
-  justify-content: center; 
- 
-}
-
-
-
-img {
-
+  h1 {
   
-  width: 180px; 
-  height: 380px; 
-
-}
-
-button {
-
-
-  background-color: black;
-  color: grey;
-   
-}
-
-
-.botones:hover
-
-{background-color: #dcdcdc
-;
-color: black;
-border-radius: 7px;
-}
-.funcionesdepantalla
-
-{ display: grid;
-  text-align: left;
-
-
-}
-
-.mapa
-{
-  display: block;
-margin: 0 auto;
-max-width: 100%; 
-}
-
-.videolava2, .videolava3, .videolava4carbon, .videolava4spruce, .videolavaplay
-
-{
-  display: block;
-margin: 0 auto;
-max-width: 100%; 
-}
-
-
-.item1 {
-  
-  background-color: #dcdcdc;
-  grid-column: 1/2fr;
-  grid-row: 1/4;
-  border-radius: 5px;
-
-}
-
-.item1 h2
-{ 
-  font-size: 3rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-.item1 ul 
-{
-  padding-top: 60px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-}
-
-.item2 {
-  background-color: #B4B4B4;
-  grid-column: 2/4;
-  grid-row: 1/4;
-  border-radius: 5px;
-
+    font-size: 70px;
+    text-align: center;
+    background-color: black;
+    color: grey;
     
-
-}
-
-.item2 video {
-  width: calc(100% - 60px); 
-  height: calc(100% - 60px); 
-  object-fit: cover;
-  border-radius: 5px;
-  margin: 30px; 
-}
-
-
-
-
-.consulta { 
+    display: block;
   
-  padding-top: 100px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 30px;
-  }
-
-  
-
-
-  .grid-container {
-    margin: 25px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 150px);
-    padding-top: 200px;
-column-gap: 30px;
-
-
-
   }
   
-  {}
- 
+  
+  h2 {
+    margin-top: 20px; 
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  h3 {
+    margin-top: 50px; 
+  text-align: center; 
+  }
+  
+  /*imagenes*/
+  .contenedordeimagenes
+  {
+    display: flex;
+    justify-content: center; 
+   
+  }
+  
+  
+  img {
+  
+    
+    width: 180px; 
+    height: 380px; 
+  
+  }
+  
+  button {
+  
+    background-color: black;
+    color: grey;
+     
+  }
+  
+  .botones:hover
+  
+  {background-color: #dcdcdc
+  ;
+  color: black;
+  border-radius: 7px;
+  }
+  .funcionesdepantalla
+  
+  { display: grid;
+    text-align: left;
+  
+  }
+  
+  .mapa
+  {
+    display: block;
+  margin: 0 auto;
+  max-width: 100%; 
+  }
+  
+  .videolava2, .videolava3, .videolava4carbon, .videolava4spruce, .videolavaplay
+  
+  {
+    display: block;
+  margin: 0 auto;
+  max-width: 100%; 
+  }
+  
+  .item1 {
+    
+    background-color: #dcdcdc;
+    grid-column: 1/2fr;
+    grid-row: 1/4;
+    border-radius: 5px;
+  
+  }
+  
+  .item1 h2
+  { 
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .item1 ul 
+  {
+    padding-top: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  }
+  
+  .item2 {
+    background-color: #B4B4B4;
+    grid-column: 2/4;
+    grid-row: 1/4;
+    border-radius: 5px;
+  
+      
+  
+  }
+  
+  .item2 video {
+    width: calc(100% - 60px); 
+    height: calc(100% - 60px); 
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 30px; 
+  }
+  
+  
+  
+  .consulta { 
+    
+    padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+    }
+  
+    
+  
+    .grid-container {
+      margin: 25px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 150px);
+      padding-top: 200px;
+  column-gap: 30px;
+  
+  
+    }
+    
+    {}
+   
+  
