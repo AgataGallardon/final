@@ -1,0 +1,53 @@
+
+    .item1 {
+  
+        background-color: #dcdcdc;
+        grid-column: 1/2fr;
+        grid-row: 1/4;
+        border-radius: 5px;
+      
+      }
+      
+      .item1 h2
+      { 
+        font-size: 3rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+      }
+      
+      .item1 ul 
+      {
+        padding-top: 60px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+      }
+      
+      .item2 {
+        background-color: #B4B4B4;
+        grid-column: 2/4;
+        grid-row: 1/4;
+        border-radius: 5px;
+      
+          
+      
+      }
+      
+      .item2 video {
+        width: calc(100% - 60px); 
+        height: calc(100% - 60px); 
+        object-fit: cover;
+        border-radius: 5px;
+        margin: 30px; 
+      }
+      
+
+      .grid-container {
+        margin: 25px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 150px);
+        padding-top: 200px;
+    column-gap: 30px;
+    
+    
+      }
+    
