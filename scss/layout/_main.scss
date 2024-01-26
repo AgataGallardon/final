@@ -1,0 +1,35 @@
+section-img>
+
+.main
+{
+    margin-top: 25px;
+}
+.contenedordeimagenes
+{
+  display: flex;
+  justify-content: center; 
+ 
+}
+
+img {
+
+  
+  width: 180px; 
+  height: 380px; 
+
+}
+
+button {
+
+  background-color: black;
+  color: grey;
+   
+}
+
+.botones:hover
+
+{background-color: #dcdcdc
+;
+color: black;
+border-radius: 7px;
+}

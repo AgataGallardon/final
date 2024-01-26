@@ -1,9 +1,20 @@
-@import "base/body.scss"; 
-@import "layout/footer";
-@import "layout/header.scss";
-@import "layout/footer";
+
 @import "base/reset.scss";
+@import "base/body.scss"; 
+
+@import "layout/footer.scss";
+@import "layout/header.scss";
+@import "layout/main.scss";
+@import "layout/section-img.scss"; 
+@import "layout/media-420.scss";
+@import "layout/media-768";
+@import "layout/section-img";
+@import "layout/section-listavideo";
 @import "layout/section.scss";
-@import"layout/media-420.scss";
+@import "layout/consultas";
+
 @import "components/botones";
-@import "layout/section-img"; 
+
+@import "utilities/extend";
+@import "utilities/mixin";
+@import "utilities/variables";
