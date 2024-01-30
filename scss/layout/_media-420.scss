@@ -1,0 +1,7 @@
+@media screen and (max-width: 500px) {
+    html, body, .contenido, .pie {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
