@@ -4,3 +4,9 @@
 //font-size 55 px por ej y asi, etc
 
 //en los parentesis puedo colocar variables, siempre empiezan con $ por ejemplo, $size, $font-family, etc
+
+@mixin fondo-y-fuente {
+    background-color: #dcdcdc;
+    font-size: 16px;
+  }
+  
