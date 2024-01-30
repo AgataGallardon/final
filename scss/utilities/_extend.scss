@@ -2,8 +2,3 @@
 //si es q le quiero dar a otros boones las mismas caracteristicas de uno en particular. o puedo hacer por separado enla parte de components/botones
 //
 
-.item1, .item2 {
-    @extend .grid-container;
-    @include fondo-y-fuente;
-  }
-  
