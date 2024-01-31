@@ -131,53 +131,22 @@ section > .consulta {
   margin-right: 25px;
 }
 
-
-//mobile 
-
 @media screen and (max-width: 500px) {
-    // En general, para que los elementos estén en columna:
-    html, body, * {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    // Para que los botones estén debajo de las imágenes:
-    .contenedordeimagenes img {
-      margin-bottom: 10px;
-    }
-  
-    // Para que el video ocupe el 100% del ancho en la sección grid-container:
-    .grid-container .item2 video {
-      width: 100%;
-    }
-  
-    // Para que la lista de funciones touch tenga un tamaño de fuente adecuado:
-    .grid-container .item1 ul li {
-      font-size: 14px;
-    }
-  
-    // Para que el formulario de contacto ocupe todo el ancho:
-    .consulta form {
-      width: 100%;
-    }
+  html, body, * {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedordeimagenes img {
+    margin-bottom: 10px;
+  }
+  .grid-container .item2 video {
+    width: 100%;
+  }
+  .grid-container .item1 ul li {
+    font-size: 14px;
+  }
+  .consulta form {
+    width: 100%;
   }
 
-  @media screen and (min-width: 501px) and (max-width: 960px) {
-    // Si necesitas ajustes específicos para tablets, puedes agregarlos aquí.
-    // Por ejemplo, puedes aumentar el tamaño de fuente de la lista de funciones touch:
-    .grid-container .item1 ul li {
-      font-size: 16px;
-    }
-  }
-
-  
-  @media screen and (min-width: 961px) {
-    // Si necesitas ajustes específicos para pantallas grandes, puedes agregarlos aquí.
-    // Por ejemplo, puedes cambiar el diseño de la lista de funciones touch para que esté en una fila:
-    .grid-container .item1 ul {
-      display: flex;
-      flex-direction: row;
-    }
-  }
-  
 /*# sourceMappingURL=style.css.map */
