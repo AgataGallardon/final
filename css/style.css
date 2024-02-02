@@ -2,6 +2,15 @@ body {
   background-color: #565656;
 }
 
+.iconosimg img {
+  width: 25px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
 header > h1 {
   font-size: 70px;
   text-align: center;
@@ -137,6 +146,12 @@ section > .consulta {
   background-image: linear-gradient(to right, grey, white);
   text-decoration: none;
   border-radius: 1px;
+}
+
+.gradientboton p {
+  background-color: white;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 @media screen and (max-width: 500px) {

@@ -7,6 +7,13 @@
   
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="scss/style.scss">
+     <!-- <link de AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link de animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 <title>Lava Guitars</title>
   </head>
   <body>
@@ -22,7 +29,7 @@
 
 <header>
 
-<h1 id="inicio">Lava | Guitarras Inteligentes</h1>
+<h1 id="inicio" data-aos="zoom-out">Lava | Guitarras Inteligentes</h1>
 
 <h2> La tecnología avanza y la música tambien</h2>
 
@@ -67,7 +74,7 @@
 </main>
 
 <section class="grid-container">
-  <div class="grid item1">
+  <div class="grid item1" data-aos="flip-up">
     <h2> FUNCIONES TOUCH</h2>
     <ul>
       <li>Afinador incorporado</li>
@@ -79,7 +86,7 @@
       <li>Metrónomo integrado</li>
   </ul>
   </div>
-  <div class="grid item2">
+  <div class="grid item2" data-aos="flip-down" >
     <video src="https://w1aws.lavamusic.com/lavamusic/EN/videos/lavame4c/LAVA-ME-4-Carbon_L.mp4" autoplay loop muted></video>
   </div>
 </section>
@@ -119,7 +126,17 @@
 </nav>
 
 <footer>
-<!-- Aqui debajo va a ir enlace a redes sociales cuando haga sus perfiles de Facebook e IG -->
+<!-- Aqui debajo va a ir enlace a redes sociales cuando haga sus perfiles de Facebook, Whatsapp e IG -->
+
+<section>
+<div class="iconosimg">
+
+<img src="assets/logowhatsapp.png" alt="Whatsapp">
+<img src="assets/logoface.png" alt="Facebook">
+<img src="assets/logoig.png" alt="instagram">
+
+</div>
+</section>
 
 <!-- copyright -->
 
@@ -129,7 +146,11 @@
 </footer>
 
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+<script>
+  AOS.init();
+</script>
 
 </body>
 
