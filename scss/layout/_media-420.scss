@@ -1,0 +1,54 @@
+@media only screen and (max-width: 500px) 
+{
+    header > h1 {
+      font-size: 40px;
+    }
+  
+    h2 {
+      margin-top: 10px;
+    }
+  
+    h3 {
+      margin-top: 30px;
+    }
+  
+    img {
+      width: 80%;
+      height: auto;
+    }
+  
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, auto);
+    }
+  
+    .item1, .item2 {
+      background-color: #B4B4B4;
+      border-radius: 5px;
+    }
+  
+    .item1 h2 {
+      font-size: 1.5rem;
+    }
+  
+    .item1 ul {
+      padding-top: 30px;
+    }
+  
+    .item2 video {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 5px;
+      margin: 15px;
+    }
+  
+    .consulta {
+      padding-top: 30px;
+    }
+  
+    .gradientboton a {
+      border-radius: 3px;
+    }
+  }
+  
