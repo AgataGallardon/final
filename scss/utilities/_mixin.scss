@@ -9,4 +9,16 @@
     background-color: #dcdcdc;
     font-size: 16px;
   }
+  @mixin boton-primario {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+  
+    &:hover {
+      background-color: #fff;
+      color: #000;
+    }
+  }
   

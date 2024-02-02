@@ -2,7 +2,7 @@ body {
   background-color: #565656;
 }
 
-.iconosimg img {
+footer section .iconosimg img {
   width: 25px;
   height: auto;
   display: flex;
@@ -179,6 +179,16 @@ section > .consulta {
     flex-direction: column;
     width: 100%;
   }
+}
+.borde-redondeado, .item1,
+.item2,
+.video,
+.consulta {
+  border-radius: 5px;
+}
+
+body {
+  background-color: grey;
 }
 
 /*# sourceMappingURL=style.css.map */
