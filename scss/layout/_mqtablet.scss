@@ -1,54 +1,5 @@
+/* _tablet.scss */
 
-@media only screen and (min-width: 501px) and (max-width: 960px){
-    header > h1 {
-      font-size: 60px;
-    }
-  
-    h2 {
-      margin-top: 15px;
-    }
-  
-    h3 {
-      margin-top: 40px;
-    }
-  
-    img {
-      width: 50%;
-      height: auto;
-    }
-  
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, auto);
-    }
-  
-    .item1, .item2 {
-      background-color: #B4B4B4;
-      border-radius: 5px;
-    }
-  
-    .item1 h2 {
-      font-size: 2rem;
-    }
-  
-    .item1 ul {
-      padding-top: 40px;
-    }
-  
-    .item2 video {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      border-radius: 5px;
-      margin: 15px;
-    }
-  
-    .consulta {
-      padding-top: 40px;
-    }
-  
-    .gradientboton a {
-      border-radius: 3px;
-    }
-  }
-  
+@media only screen and (min-width: 501px) and (max-width: 960px) {
+  /* Estilos específicos para tabletas */
+}

@@ -1,58 +1,173 @@
-@media only screen and (max-width: 500px) 
-{
-    header > h1 {
-      font-size: 40px;
-    }
-  
-    h2 {
-      margin-top: 10px;
-    }
-  
-    h3 {
-      margin-top: 30px;
-    }
-  
-    img {
-      width: 40px;
-      height: auto;
-    }
-  
-    .grid-container {
-        size: 50px;
-        align-content: center;
-        flex-direction: column;
+/* _mobile.scss */
 
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(3, auto);
-    }
-  
-    .item1, .item2 {
-      background-color: #B4B4B4;
-      border-radius: 5px;
-    }
-  
-    .item1 h2 {
-      font-size: 1.5rem;
-    }
-  
-    .item1 ul {
-      padding-top: 30px;
-    }
-  
-    .item2 video {
-      width: 100%;
-      height: auto;
-      object-fit: cover;
-      border-radius: 5px;
-      margin: 15px;
-    }
-  
-    .consulta {
-      padding-top: 30px;
-    }
-  
-    .gradientboton a {
-      border-radius: 3px;
-    }
-  }
-  
+@media only screen and (max-width: 500px) {
+  /* Estilos específicos para pantallas móviles */
+  /* _mobile.scss */
+
+.img {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+footer section .iconosimg img {
+  width: 25px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+header > h1 {
+  font-size: 70px;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  display: block;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  padding: 15px;
+}
+
+main > .main {
+  margin-top: 25px;
+}
+
+.contenedordeimagenes {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 90px;
+  height: 190px;
+}
+
+button {
+  background-color: black;
+  color: grey;
+}
+
+.botones:hover {
+  background-color: #dcdcdc;
+  color: black;
+  border-radius: 7px;
+}
+
+rid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item1 {
+  background-color: #dcdcdc;
+  border-radius: 5px;
+}
+
+.item1 h2 {
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item1 ul {
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item2 {
+  background-color: #B4B4B4;
+  border-radius: 5px;
+}
+
+.item2 video {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.item1 {
+  background-color: #B4B4B4;
+  grid-column: 1/2fr;
+  grid-row: 1/4;
+  border-radius: 5px;
+}
+
+.item1 h2 {
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item1 ul {
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item2 {
+  background-color: #B4B4B4;
+  grid-column: 2/4;
+  grid-row: 1/4;
+  border-radius: 5px;
+}
+
+.item2 video {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.grid-container {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  padding-top: 200px;
+  column-gap: 30px;
+}
+
+section > .consulta {
+  padding-top: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 30px;
+  margin-right: 25px;
+}
+
+.gradientboton a {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right, grey, white);
+  text-decoration: none;
+  border-radius: 1px;
+}
+
+.gradientboton p {
+  background-color: white;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+.borde-redondeado, .item1,
+.item2,
+.video,
+.consulta {
+  border-radius: 5px;
+}
+}
