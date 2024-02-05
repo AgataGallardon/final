@@ -13,11 +13,15 @@
     }
   
     img {
-      width: 80%;
+      width: 40px;
       height: auto;
     }
   
     .grid-container {
+        size: 50px;
+        align-content: center;
+        flex-direction: column;
+
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3, auto);
     }
