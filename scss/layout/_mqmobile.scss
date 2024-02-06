@@ -1,8 +1,16 @@
 /* _mobile.scss */
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   /* Estilos específicos para pantallas móviles */
   /* _mobile.scss */
 
-
+body {
+  background-color: red;
+  
 }
+
+ main 
+     a { 
+              display: flex;
+              justify-content: center;
+              flex-wrap: wrap;}}

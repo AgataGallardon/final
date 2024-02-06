@@ -1,5 +1,8 @@
 /* _tablet.scss */
 
 @media only screen and (min-width: 501px) and (max-width: 960px) {
-  /* Estilos específicos para tabletas */
+  /* Estilos específicos para tabletas */  body {
+    background-color: blue;
+  } 
 }
+
