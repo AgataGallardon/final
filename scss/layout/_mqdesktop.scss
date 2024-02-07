@@ -1,8 +1,36 @@
 /* _desktop.scss */
 
-@media only screen and (min-width: 961px) {
+@media screen and (min-width: 961px) {
     /* Estilos específicos para escritorio */  body {
     background-color:#565656 ; }
+
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+      
+    
+      img {
+        width: 180px;
+        height: 380px;
+        margin: 10px;
+      }
+    }
+    .contenedordeimagenes {
+      display: flex;
+      justify-content: center;
+    
+      button {
+        background-color: black;
+        color: grey;
+        margin: 10px;
+    
+        &:hover {
+          background-color: #dcdcdc;
+          color: black;
+        }
+      }
+    }
+        
   }
   
   

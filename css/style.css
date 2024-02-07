@@ -1,18 +1,224 @@
-/* Error: Top-level selectors may not contain the parent selector "&".
- *    ,
- * 19 |     &:hover {
- *    |     ^
- *    '
- *   scss\utilities\_mixin.scss 19:5  @import
- *   scss\style.scss 20:9             root stylesheet */
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: Top-level selectors may not contain the parent selector "&".\a    \2577 \a 19 \2502      &:hover {\d\a    \2502      ^\a    \2575 \a   scss\\utilities\\_mixin.scss 19:5  @import\a   scss\\style.scss 20:9             root stylesheet';
+footer section .iconosimg img {
+  width: 25px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 10px;
 }
+
+header > h1 {
+  font-size: 70px;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  display: block;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  padding: 15px;
+}
+
+main > .main {
+  margin-top: 25px;
+}
+
+.contenedordeimagenes {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 180px;
+  height: 380px;
+}
+
+button {
+  background-color: black;
+  color: grey;
+}
+
+.botones:hover {
+  background-color: #dcdcdc;
+  color: black;
+  border-radius: 7px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item1 {
+  background-color: #dcdcdc;
+  border-radius: 5px;
+}
+
+.item1 h2 {
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item1 ul {
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item2 {
+  background-color: #B4B4B4;
+  border-radius: 5px;
+}
+
+.item2 video {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.item1 {
+  background-color: #B4B4B4;
+  grid-column: 1/2fr;
+  grid-row: 1/4;
+  border-radius: 5px;
+}
+
+.item1 h2 {
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item1 ul {
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item2 {
+  background-color: #B4B4B4;
+  grid-column: 2/4;
+  grid-row: 1/4;
+  border-radius: 5px;
+}
+
+.item2 video {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.grid-container {
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  padding-top: 200px;
+  column-gap: 30px;
+}
+
+section > .consulta {
+  padding-top: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 30px;
+  margin-right: 25px;
+}
+
+.gradientboton a {
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right, grey, white);
+  text-decoration: none;
+  border-radius: 1px;
+}
+
+.gradientboton p {
+  background-color: white;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* _desktop.scss */
+@media screen and (min-width: 961px) {
+  /* Estilos específicos para escritorio */
+  body {
+    background-color: #565656;
+  }
+  .contenedordeimagenes {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedordeimagenes img {
+    width: 180px;
+    height: 380px;
+    margin: 10px;
+  }
+  .contenedordeimagenes {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedordeimagenes button {
+    background-color: black;
+    color: grey;
+    margin: 10px;
+  }
+  .contenedordeimagenes button:hover {
+    background-color: #dcdcdc;
+    color: black;
+  }
+}
+/* _mobile.scss */
+@media screen and (max-width: 500px) {
+  /* Estilos específicos para pantallas móviles */
+  /* _mobile.scss */
+  body {
+    background-color: red;
+  }
+  .contenedordeimagenes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .contenedordeimagenes img {
+    width: 90px;
+    height: 190px;
+    margin: 5px;
+  }
+  button {
+    background-color: black;
+    color: grey;
+    margin: 5px;
+  }
+  button:hover {
+    background-color: #dcdcdc;
+    color: black;
+  }
+}
+/* _tablet.scss */
+@media screen and (min-width: 501px) and (max-width: 960px) {
+  /* Estilos específicos para tabletas */
+  body {
+    background-color: blue;
+  }
+}
+.borde-redondeado, .item1,
+.item2,
+.video,
+.consulta {
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
