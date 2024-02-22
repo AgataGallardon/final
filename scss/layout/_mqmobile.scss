@@ -1,82 +1,79 @@
 /* _mobile.scss */
 
-@media screen and (max-width: 500px) {
-  /* Estilos específicos para pantallas móviles */
-  /* _mobile.scss */
-
-body {
-  background-color: red;
+@media screen and (max-width: 767px) {
   
-}
-.contenedordeimagenes {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 
-  img {
-    width: 90px;
-    height: 190px;
-    margin: 5px;
+  body {
+    background-color: red;
+    
   }
-}
-
-
-  button {
-    background-color: black;
-    color: grey;
-    margin: 5px;
-
-    &:hover {
-      background-color: #dcdcdc;
-      color: black;
-    }}
+  .contenedordeimagenes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   
-
-  
-    .grid-container {
-      /* Elimina grid para mobile */
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  
-      /* Ajusta el ancho y margen para pantalla móvil */
-      width: 100%;
-      margin: 0;
-  
-      /* Elimina filas de la plantilla para que sea una columna */
-      grid-template-rows: 1fr;
+    img {
+      width: 90px;
+      height: 190px;
+      margin: 5px;
     }
+  }
   
-    .item1 {
-      /* Actualiza fondo y borde, manteniendo tamaño relativo */
-      background-color: #dcdcdc;
-      border-radius: 5px;
-      margin-bottom: 5px;
   
-      /* Ajusta tamaño de título para móviles */
-      h2 {
-        font-size: 1.5rem;
-      }
+    button {
+      background-color: black;
+      color: grey;
+      margin: 5px;
   
-      /* Ajusta margen interno superior para mayor balance */
-      ul {
-        padding-top: 40px;
-      }
-    }
-  
-    .item2 {
-      /* Actualiza fondo y borde, manteniendo tamaño relativo */
-      background-color: #B4B4B4;
-      border-radius: 5px; }
-  
-      /* Ajusta video para ocupar máximo espacio disponible */
-      video {
-        width: calc(100% - 20px);
-        height: calc(100% - 20px);
-        object-fit: cover;
-        border-radius: 5px;
-        margin: 20px;
-      } }
+      &:hover {
+        background-color: #dcdcdc;
+        color: black;
+      }}
     
   
+    
+      .grid-container {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    
+        width: 100%;
+        margin: 10px;
+    
+        
+        
+      }
+    
+      .item1 {
+        background-color: #dcdcdc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    
+        
+        h2 {
+          font-size: 1.5rem;
+        }
+    
+        ul {
+          padding-top: 40px;
+        }
+      }
+    
+      .item2 {
+    
+        background-color: #B4B4B4;
+        border-radius: 5px;
+        margin-top: 10px; }
+    
+        
+        video {
+          width: calc(100% - 20px);
+          height: calc(100% - 20px);
+          object-fit: cover;
+          border-radius: 5px;
+          margin: 20px;
+        } }
+      

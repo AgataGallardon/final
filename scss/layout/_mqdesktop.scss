@@ -1,20 +1,30 @@
 /* _desktop.scss */
 
-@media screen and (min-width: 961px) {
-    /* Estilos específicos para escritorio */  body {
+@media screen and (min-width: 1024px) {
+   body {
     background-color:#565656 ; }
 
-    .contenedordeimagenes {
-      display: flex;
-      justify-content: center;
-      
-    
-      img {
-        width: 180px;
-        height: 380px;
-        margin: 10px;
-      }
-    }
+    .main
+{
+    margin-top: 25px;
+}
+.contenedordeimagenes
+{
+  display: flex;
+  justify-content: center; 
+ 
+}
+
+img {
+
+  
+  width: 180px; 
+  height: 380px; 
+
+
+}
+
+
     .contenedordeimagenes {
       display: flex;
       justify-content: center;
@@ -34,3 +44,36 @@
   }
   
   
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item1 {
+  background-color: #dcdcdc;
+  border-radius: 5px;
+}
+
+.item1 h2 {
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item1 ul {
+  padding-top: 60px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.item2 {
+  background-color: #B4B4B4;
+  border-radius: 5px;
+}
+
+.item2 video {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 30px;
+}

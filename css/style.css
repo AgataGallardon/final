@@ -1,4 +1,3 @@
-@charset "UTF-8";
 footer section .iconosimg img {
   width: 25px;
   height: auto;
@@ -152,19 +151,20 @@ section > .consulta {
 }
 
 /* _desktop.scss */
-@media screen and (min-width: 961px) {
-  /* Estilos específicos para escritorio */
+@media screen and (min-width: 1024px) {
   body {
     background-color: #565656;
+  }
+  .main {
+    margin-top: 25px;
   }
   .contenedordeimagenes {
     display: flex;
     justify-content: center;
   }
-  .contenedordeimagenes img {
+  img {
     width: 180px;
     height: 380px;
-    margin: 10px;
   }
   .contenedordeimagenes {
     display: flex;
@@ -180,10 +180,42 @@ section > .consulta {
     color: black;
   }
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.item1 {
+  background-color: #dcdcdc;
+  border-radius: 5px;
+}
+
+.item1 h2 {
+  font-size: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item1 ul {
+  padding-top: 60px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.item2 {
+  background-color: #B4B4B4;
+  border-radius: 5px;
+}
+
+.item2 video {
+  width: calc(100% - 60px);
+  height: calc(100% - 60px);
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 30px;
+}
+
 /* _mobile.scss */
-@media screen and (max-width: 500px) {
-  /* Estilos específicos para pantallas móviles */
-  /* _mobile.scss */
+@media screen and (max-width: 767px) {
   body {
     background-color: red;
   }
@@ -207,24 +239,17 @@ section > .consulta {
     color: black;
   }
   .grid-container {
-    /* Elimina grid para mobile */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* Ajusta el ancho y margen para pantalla móvil */
     width: 100%;
-    margin: 0;
-    /* Elimina filas de la plantilla para que sea una columna */
-    grid-template-rows: 1fr;
+    margin: 10px;
   }
   .item1 {
-    /* Actualiza fondo y borde, manteniendo tamaño relativo */
     background-color: #dcdcdc;
     border-radius: 5px;
-    margin-bottom: 5px;
-    /* Ajusta tamaño de título para móviles */
-    /* Ajusta margen interno superior para mayor balance */
+    margin-bottom: 10px;
   }
   .item1 h2 {
     font-size: 1.5rem;
@@ -233,11 +258,10 @@ section > .consulta {
     padding-top: 40px;
   }
   .item2 {
-    /* Actualiza fondo y borde, manteniendo tamaño relativo */
     background-color: #B4B4B4;
     border-radius: 5px;
+    margin-top: 10px;
   }
-  /* Ajusta video para ocupar máximo espacio disponible */
   video {
     width: calc(100% - 20px);
     height: calc(100% - 20px);
@@ -247,8 +271,7 @@ section > .consulta {
   }
 }
 /* _tablet.scss */
-@media screen and (min-width: 501px) and (max-width: 960px) {
-  /* Estilos específicos para tabletas */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   body {
     background-color: blue;
   }
@@ -272,6 +295,25 @@ button {
 button:hover {
   background-color: #dcdcdc;
   color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  width: 80%;
+  margin: 0 auto;
+  gap: 20px;
+}
+.grid-container .item1 h2 {
+  font-size: 2rem;
+}
+.grid-container .item1 ul {
+  padding-top: 50px;
+}
+.grid-container .item2 video {
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
 }
 
 .borde-redondeado, .item1,
