@@ -1,0 +1,107 @@
+/* _mobile.scss */
+
+@media screen and (max-width: 600px) {
+  
+
+  
+    header>
+  
+  h1 {
+  
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    
+    display: block;
+  
+  
+  }
+  
+  
+  h2 {
+    font-size: 25px;
+    margin-top: 10px; 
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  h3 {
+    font-size: 15px;
+    margin-top: 10px; 
+  text-align: center; 
+  background-color: black;
+    color: grey;
+    padding: 15px;
+  } }
+
+   /* _tablet.scss */
+
+ @media screen and (min-width: 601px) and (max-width: 960px) {
+
+
+
+  
+    header>
+  
+  h1 {
+  
+    font-size: 30px;
+    text-align: center;
+    background-color: black;
+    color: grey;
+    
+    display: block;
+  
+  
+  
+  
+  }
+  
+  
+  h2 {
+    font-size: 25px;
+    margin-top: 10px; 
+    text-align: center;
+    text-decoration: underline;
+   
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-top: 10px; 
+  text-align: center; 
+  background-color: black;
+    color: grey;
+    padding: 15px;
+    
+  
+  } }
+
+         /* _media desktop */
+
+         @media screen and  (min-width: 961px)
+         {
+         body C
+  
+         header > h1 {
+           font-size: 70px;
+           text-align: center;
+           background-color: black;
+           color: grey;
+           display: block;
+         }
+         
+         h2 {
+           margin-top: 20px;
+           text-align: center;
+           text-decoration: underline;
+         }
+         
+         h3 {
+           margin-top: 50px;
+           text-align: center;
+           background-color: black;
+           color: grey;
+           padding: 15px;
+         } }
