@@ -384,6 +384,7 @@ footer section .iconosimg img {
     background-color: black;
     color: grey;
     padding: 15px;
+    margin-bottom: 15px;
   }
   main > .main {
     margin-top: 25px;
@@ -395,6 +396,7 @@ footer section .iconosimg img {
   img {
     width: 180px;
     height: 380px;
+    background-color: grey;
   }
   button {
     background-color: black;
@@ -493,6 +495,11 @@ footer section .iconosimg img {
     background-color: white;
     color: black;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .contacto .gradientnav2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 /* _mobile.scss */

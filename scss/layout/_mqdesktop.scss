@@ -27,6 +27,7 @@
          background-color: black;
          color: grey;
          padding: 15px;
+         margin-bottom: 15px;
        }
        
        main > .main {
@@ -34,14 +35,18 @@
        }
        
        .contenedordeimagenes {
+        
          display: flex;
          justify-content: center;
+         
        }
        
        img {
+        
          width: 180px;
          height: 380px;
          background-color: grey;
+         
        }
        
        button {
@@ -160,6 +165,10 @@
            color: black;
            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
          }
+
+         .contacto .gradientnav2{ display: flex;
+          justify-content: center;
+          flex-wrap: wrap;}
          }
          
-        
+       
