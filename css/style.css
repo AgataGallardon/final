@@ -4,7 +4,7 @@
   
 
   body {
-    background-color: red;
+    background-color:gray;
     
   }
 
@@ -159,7 +159,7 @@ button {
 
 
       body {
-        background-color: blue;
+        background-color: gray;
        
 
       }
@@ -259,7 +259,7 @@ button {
               border-radius: 5px;
             }
           
-            /* Se agrega padding para que se vea el borde gris del video */
+            
             
           } 
   
