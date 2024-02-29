@@ -2,77 +2,77 @@
 /* _mobile.scss */
 
 @media screen and (max-width: 600px) {
-section > .consulta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-top: 10px;
-
+  section > .consulta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
   
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .formulario-contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 10px 0 10px;
+    }
+    
+    #NombreyApellido, #E-mail, #consultas {
+      text-align: left;
+    }
+    
+    .gradientboton a {
+      color: black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-image: linear-gradient(to right, grey, white);
+      text-decoration: none;
+      border-radius: 1px;
+    } }
+  
+     /* _tablet.scss */
+  
+  @media screen and (min-width: 601px) and (max-width: 960px) {   section > .consulta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      padding-top: 10px;
+  
+    
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .formulario-contenedor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 10px 0 10px;
+    }
+    
+    #NombreyApellido, #E-mail, #consultas {
+      text-align: left;
+    }
+    
+    .gradientboton a {
+      color: black;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-image: linear-gradient(to right, grey, white);
+      text-decoration: none;
+      border-radius: 1px;
+    }
   }
   
-  .formulario-contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 10px 0 10px;
-  }
+  /* _media desktop */
   
-  #NombreyApellido, #E-mail, #consultas {
-    text-align: left;
+  @media screen and  (min-width: 961px)
+  {section > .consulta {
+      padding-top: 100px;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      margin: 30px;
+      margin-right: 25px; }
   }
-  
-  .gradientboton a {
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(to right, grey, white);
-    text-decoration: none;
-    border-radius: 1px;
-  } }
-
-   /* _tablet.scss */
-
-@media screen and (min-width: 601px) and (max-width: 960px) {   section > .consulta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding-top: 10px;
-
-  
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  .formulario-contenedor {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 10px 0 10px;
-  }
-  
-  #NombreyApellido, #E-mail, #consultas {
-    text-align: left;
-  }
-  
-  .gradientboton a {
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(to right, grey, white);
-    text-decoration: none;
-    border-radius: 1px;
-  }
-}
-
-/* _media desktop */
-
-@media screen and  (min-width: 961px)
-{section > .consulta {
-    padding-top: 100px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    margin: 30px;
-    margin-right: 25px; }
-}
