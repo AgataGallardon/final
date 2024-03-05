@@ -1,0 +1,44 @@
+
+
+/* _mobile.scss */
+
+@media screen and (max-width: 600px) {
+
+    .lavameplay {
+   
+        display: flex;
+        justify-content: center;
+       flex-wrap: wrap;
+    
+        width: 90px;
+        height: 190px;
+       }}
+      
+     
+  
+    /* _tablet.scss */
+
+@media screen and (min-width: 601px) and (max-width: 960px) {
+
+    .lavameplay {
+        
+            display: flex;
+            justify-content: center;
+           flex-wrap: wrap;
+        
+            width: 90px;
+            height: 190px;
+          } }
+
+          /* _media desktop */
+
+          @media screen and  (min-width: 961px) {
+          .lavameplay {
+            
+                display: flex;
+                justify-content: center;
+               flex-wrap: wrap;
+            
+                width: 180px;
+                height: 380px;
+              } }
