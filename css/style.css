@@ -2,6 +2,20 @@ body {
   background-color: gray;
 }
 
+.container-fluid {
+  color: black;
+  background-color: #808080;
+  font-size: 15px;
+  margin-top: 10px; 
+  padding: 10px;
+  
+}
+
+.imgnav {
+  width: 25px;
+  height: auto;
+}
+
 @media screen and (max-width: 600px) {
   footer section .iconosimg img {
     width: 25px;
