@@ -144,7 +144,11 @@
     justify-content: center;
    flex-wrap: wrap; }
 
+   
+
    .contenedorlava4 {
+    background-color: grey;
+   padding: 15px;
     max-width: 100%;
     height: auto;
 }
