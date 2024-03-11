@@ -1,3 +1,29 @@
+header
+.navbar { 
+ 
+  color: black;
+  background-color: #808080;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.navbar .nosotros {
+  font-size: 30px;
+  text-align: center;
+  background-color: black;
+  color: grey;
+  display: block;
+  padding: 130px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar navbar-expand-lg bg-body-tertiary .imgnav {
+  width: 25px;
+  height: auto;
+}
+
+
+  
+
 
 /* _mobile.scss */
 
@@ -6,6 +32,7 @@
 
   
     header>
+
   
             h1 {
   

@@ -45,8 +45,11 @@ background-color: black;
 }
 
 .contenedordeimagenes img {
-  width: 90px;
-  height: 190px;
+   
+  img {
+    max-width: 100%;
+    height: auto;
+}
 }
 
 button {

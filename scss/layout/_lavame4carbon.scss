@@ -4,16 +4,21 @@
 
 /* _mobile.scss */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
+  
+  .contenedorlava4 .lava1    img {
+    max-width: 50%;
+    height: auto;
+}
+
 
     .lavame4carbon {
    
         display: flex;
         justify-content: center;
        flex-wrap: wrap;
-    
-        width: 90px;
-        height: 190px;
+       
+  
        }}
       
      
@@ -28,8 +33,10 @@
             justify-content: center;
            flex-wrap: wrap;
         
-            width: 90px;
-            height: 190px;
+           img {
+            max-width: 50%;
+            height: auto;
+        }
           } }
 
           /* _media desktop */
@@ -41,6 +48,8 @@
                 justify-content: center;
                flex-wrap: wrap;
             
-                width: 180px;
-                height: 380px;
+               img {
+                max-width: 50%;
+                height: auto;
+            }
               } }
