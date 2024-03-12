@@ -8,7 +8,10 @@
 
 @media screen and (max-width: 600px) { 
   
-  .contenedorlava4 .lava1    img {
+  .contenedorlava4 
+  .lava1   
+   img {
+    display: flex;
     max-width: 50%;
     height: auto;
 }
