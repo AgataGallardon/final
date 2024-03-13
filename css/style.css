@@ -856,7 +856,7 @@ header .navbar .imgnav {
 }
 
 .l1{
-  background-color: grey;
+  background-color:grey;
 }
 
 .c1 {
@@ -864,9 +864,14 @@ header .navbar .imgnav {
 }
 
    
+.l2 {
+  background-color: black;
+  display: block;
+}
 
-   
-
+.bg-body-tertiary {
+  background-color: transparent;
+}
 
 
 /*# sourceMappingURL=style.css.map */
